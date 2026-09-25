@@ -2,6 +2,7 @@ name: Build Davis Bridge EXE
 on:
   push:
     branches: [ main ]
+    tags: [ 'v*' ]
   workflow_dispatch:
 permissions:
   contents: write
